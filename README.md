@@ -64,38 +64,61 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wever Labs is a founder‑led product company building the infrastructure for agentic work. It offers Wever Pay, an autonomous commerce exchange, and a suite of tools including Market Thesis AI, Tokenization Atlas, Agent Store, and Integration Kit, enabling humans and AI agents to discover, transact, and verify services across a unified platform.
+Wever Labs builds the product layer between human intent and agent execution, including Wever Pay, the Agent Store, and the Agent Integration Kit. The company offers a portfolio spanning market intelligence, tokenized‑asset diligence, agent infrastructure, and an autonomous commerce exchange. It provides open APIs, an integration kit for developers, and a suite of AI‑driven tools that enable agents to discover, call, and verify products. Operating as the parent of Wever Pay, Wever Labs delivers verifiable, agent‑callable services on the Base Sepolia testnet, focusing on secure, transparent, and programmable commerce.
 
-**Areas:** Company · AI · Payments · Infrastructure · Platform
+**Areas:** Company · AI · FinTech · Agent Platforms · Payments · Blockchain
 
 ## weverlabs-com on APIs.io
 
 Everything profiled for weverlabs-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/weverlabs-com/](https://apis.io/providers/weverlabs-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (6)
 
-- [Wever Labs Agent API](https://apis.io/apis/weverlabs-com/wever-labs-agent-api/) — Agentic commerce and OS public API
+- [weverlabs-com Agent Commerce Proof API](https://apis.io/apis/weverlabs-com/weverlabs-com-agent-commerce-proof-api/) — The Agent Commerce Proof API from weverlabs-com — 1 operation(s) for agent commerce proof.
+- [weverlabs-com Agent Run API](https://apis.io/apis/weverlabs-com/weverlabs-com-agent-run-api/) — The Agent Run API from weverlabs-com — 1 operation(s) for agent run.
+- [weverlabs-com Assets API](https://apis.io/apis/weverlabs-com/weverlabs-com-assets-api/) — The Assets API from weverlabs-com — 1 operation(s) for assets.
+- [weverlabs-com Commerce Activity Feed API](https://apis.io/apis/weverlabs-com/weverlabs-com-commerce-activity-feed-api/) — The Commerce Activity Feed API from weverlabs-com — 1 operation(s) for commerce activity feed.
+- [weverlabs-com Delegated Authority API](https://apis.io/apis/weverlabs-com/weverlabs-com-delegated-authority-api/) — The Delegated Authority API from weverlabs-com — 1 operation(s) for delegated authority.
+- [weverlabs-com Token Thesis API](https://apis.io/apis/weverlabs-com/weverlabs-com-token-thesis-api/) — The Token Thesis API from weverlabs-com — 1 operation(s) for token thesis.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (2)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Weverlabs Com Agentic Access](https://apis.io/agentic-access/weverlabs-com/weverlabs-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [weverlabs-com API Rules](https://apis.io/rules/weverlabs-com/weverlabs-com-rules/)
+
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Weverlabs Com Authentication](https://apis.io/security/weverlabs-com/weverlabs-com-authentication/)
 - [Weverlabs Com Domain Security](https://apis.io/security/weverlabs-com/weverlabs-com-domain-security/)
 - [Weverlabs Com Vulnerability Disclosure](https://apis.io/security/weverlabs-com/weverlabs-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Weverlabs Com Scopes](https://apis.io/scopes/weverlabs-com/weverlabs-com-scopes/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://weverlabs.com/)
-- [Documentation](https://weverlabs.com/docs/)
-- [Getting started](https://weverlabs.com/agent-integration-kit/)
-- [API reference](https://weverlabs.com/openapi.json)
-- [Support](https://weverlabs.com/support/)
+- [Documentation](https://weverlabs.com/agent-integration-kit/)
+- [API reference](https://wever-pay-agent-mesh-phase5-staging.quiet-salad-e96e.workers.dev/openapi.json)
+- [Support](https://weverlabs.com/contact/)
 - [Security](https://weverlabs.com/support/#security)
 - [Trust centre](https://weverlabs.com/trust/)
 - [Terms of service](https://weverlabs.com/terms/)
@@ -104,23 +127,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 30.2** — thin · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 41.0** — developing · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
-| Contract quality | 30.5 |
-| Contract governance | 0.0 |
+| Contract quality | 36.7 |
+| Contract governance | 65.5 |
 | Operational transparency | 26.3 |
-| Developer ergonomics | 33.3 |
+| Developer ergonomics | 31.0 |
 | Access clarity | 28.9 |
 
-**Agent readiness 23.6** — agent-aware
+**Agent readiness 30.1** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | — |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -141,7 +164,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 
-**Regulatory alignment 20.8** — Payments
+**Regulatory alignment 33.3** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/weverlabs-com/](https://apis.io/providers/weverlabs-com/).
 
